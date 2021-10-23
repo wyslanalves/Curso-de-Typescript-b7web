@@ -1,0 +1,3 @@
+modu de executar - tsc src/script.ts --outDir public
+
+arquivo de configuração de typescrip
