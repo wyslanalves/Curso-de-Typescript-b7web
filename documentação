@@ -1,7 +1,11 @@
 
 Caminho + Destino de onde vou salvar o script - tsc src/script.ts --outDir public
-=====================================
+======================================
 Caminha + informando que se tiver erro no codigo não execulta - tsc src/script.ts --noEmitOnError
-=====================================
+======================================
 Na tipagem não  é recomendado usa os tipos com letra maisculas - let nome: string = "wyslan" x let nome: String = "wyslan"
-=====================================
+======================================
+podemos fazer a compilação dos arquivos com -> cominho do arquivo  --WatchMode
+todo codigo do typescript ele ja faz a compilação
+=======================================
+tsc --init gera um arquivo de configuranção json, podemos tambem colocar tsc -w 
